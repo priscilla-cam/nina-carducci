@@ -110,18 +110,12 @@ body {
 }
 
 .nav-pills .nav-link.active,
+.nav-link.active-tag,
 .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #E5975F;
 	border-radius: 0;
 }
-
-/*.nav-pills.hover {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius: 0;
-}
-*/
 
 .nav-pills .nav-link {
 	color: #000

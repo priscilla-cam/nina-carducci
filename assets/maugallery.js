@@ -13,6 +13,7 @@
       }
       $.fn.mauGallery.listeners(options);
 
+
       $(this)
         .children(".gallery-item")
         .each(function (index) {
@@ -259,8 +260,4 @@
   };
 })(jQuery);
 
-//$(".nav-pills").on("mouseover", function () {
-  //$(".nav-pills").removeClass("hover");
-  //$(this).addClass("hover");
-//});
 
