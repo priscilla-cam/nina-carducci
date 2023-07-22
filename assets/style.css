@@ -45,6 +45,14 @@ body {
 	height: auto
 }
 
+.instagram {
+	aspect-ratio: 20 / 20;
+}
+
+.rioji {
+	aspect-ratio: 1300 /600;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -62,6 +70,10 @@ body {
 	bottom: 0;
 	left: 0;
 	z-index: -1
+}
+
+.nina {
+	aspect-ratio: auto 374 /329;
 }
 
 .picture {
@@ -229,6 +241,10 @@ body {
 	bottom: 0;
 	right: 0;
 	z-index: -1
+}
+
+.camera {
+	aspect-ratio: 374 / 329;
 }
 
 .form-container {
