@@ -73,7 +73,8 @@ body {
 }
 
 .nina {
-	aspect-ratio: auto 374 /329;
+	width: 374px;
+	height: 329px;
 }
 
 .picture {
