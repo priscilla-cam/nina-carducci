@@ -27,7 +27,7 @@
 	<meta itemprop="name" content="nina carducci photographe professionnelle" />
 	<meta itemprop="description" content="portfolio et service des nina carducci photographe" />
 	<meta itemprop="image" content="./assets/images/nina.webp" />
-	<script src="lazysizes.min.js" async=""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" defer></script>
 </head>
 
 <body>
@@ -62,12 +62,12 @@
 						alt="ryoji-iwata">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100"
-						alt="nicholas-green" class="lazyload">
+					<img data-src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
+						class="d-block w-100" alt="nicholas-green" class="lazyload">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100"
-						alt="edward-cisneros" class="lazyload">
+					<img data-src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+						class="d-block w-100" alt="edward-cisneros" class="lazyload">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -109,29 +109,31 @@
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item lazyload"
-					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="concert aaron paul">
+					data-src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"
+					alt="concert aaron paul">
 				<img data-gallery-tag="Entreprises" class="gallery-item lazyload"
-					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
+					data-src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
 					alt="entreprise ali morshedlou">
 				<img data-gallery-tag="Entreprises" class="gallery-item lazyload"
-					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"
+					data-src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"
 					alt="entreprise jason goodman">
 				<img data-gallery-tag="Mariages" class="gallery-item lazyload"
-					src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"
+					data-src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"
 					alt="mariage hannah busing">
 				<img data-gallery-tag="Portrait" class="gallery-item lazyload"
-					src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="portrait ade tunji">
+					data-src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"
+					alt="portrait ade tunji">
 				<img data-gallery-tag="Mariages" class="gallery-item lazyload"
-					src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"
+					data-src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"
 					alt="mariage jakob owens">
 				<img data-gallery-tag="Portrait" class="gallery-item lazyload"
-					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"
+					data-src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"
 					alt="portrait nino van prattenburg">
 				<img data-gallery-tag="Concert" class="gallery-item lazyload"
-					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+					data-src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"
 					alt="concert austin neill">
 				<img data-gallery-tag="Entreprises" class="gallery-item lazyload"
-					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"
+					data-src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"
 					alt="entreprise mateus campos felipe">
 			</div>
 		</div>
@@ -213,7 +215,7 @@
 				</form>
 			</div>
 			<div class="picture right camera lazyload">
-				<img src="./assets/images/camera.webp" alt="camera">
+				<img data-src="./assets/images/camera.webp" alt="camera">
 			</div>
 		</div>
 	</div>
