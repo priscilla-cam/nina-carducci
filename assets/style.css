@@ -49,8 +49,9 @@ body {
 	aspect-ratio: 20 / 20;
 }
 
-.rioji {
-	aspect-ratio: 1300 /600;
+.carousel-item {
+	width: 1300px;
+	height: 600px;
 }
 
 #about {
@@ -245,7 +246,8 @@ body {
 }
 
 .camera {
-	aspect-ratio: 374 / 329;
+	width: 374px;
+	height: 329px;
 }
 
 .form-container {
