@@ -67,7 +67,7 @@ body {
 	content: ' ';
 	background-color: #E5975F;
 	width: 374px;
-	height: 329px;
+	height: 373px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -76,7 +76,7 @@ body {
 
 .nina {
 	width: 374px;
-	height: 329px;
+	height: 373px;
 }
 
 .picture {
@@ -381,6 +381,17 @@ input[type="submit"] {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0
+	}
+
+	.ryoji {
+		width: 300px;
+		height: 400px;
+		object-fit: contain;
+	}
+
+	.camera {
+		width: 200px;
+		height: 200px;
 	}
 
 	.top-header .nav,
