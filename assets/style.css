@@ -85,6 +85,15 @@ body {
 	z-index: 0
 }
 
+.picture img {
+	width: 100%
+}
+
+.img {
+	width: 100%;
+	height: auto;
+}
+
 #about-me {
 	flex: 2
 }
@@ -372,17 +381,6 @@ input[type="submit"] {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0
-	}
-
-	.ryoji {
-		width: 300px;
-		height: 400px;
-		object-fit: contain;
-	}
-
-	.camera {
-		width: 200px;
-		height: 200px;
 	}
 
 	.top-header .nav,
