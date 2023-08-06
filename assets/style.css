@@ -50,11 +50,6 @@ body {
 	height: 20px;
 }
 
-.carousel-item {
-	width: 1300px;
-	height: 600px;
-}
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -74,10 +69,6 @@ body {
 	z-index: -1
 }
 
-.nina {
-	width: 374px;
-	height: 329px;
-}
 
 .picture {
 	flex: 1;
@@ -394,6 +385,7 @@ input[type="submit"] {
 
 	.picture.left::before,
 	.picture.right::before {
+		width: 150px;
 		height: 150px
 	}
 
