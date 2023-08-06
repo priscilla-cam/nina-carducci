@@ -50,10 +50,6 @@ body {
 	height: 20px;
 }
 
-.carousel-item {
-	width: 1300px;
-	height: 600px;
-}
 
 #about {
 	display: flex;
@@ -72,11 +68,6 @@ body {
 	bottom: 0;
 	left: 0;
 	z-index: -1
-}
-
-.nina {
-	width: 374px;
-	height: 329px;
 }
 
 .picture {
