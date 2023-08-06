@@ -385,6 +385,7 @@ input[type="submit"] {
 
 	.picture.left::before,
 	.picture.right::before {
+		width: 150px;
 		height: 150px
 	}
 
