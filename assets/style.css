@@ -82,10 +82,10 @@ body {
 
 .picture img,
 .camera {
-	max-width: 100%;
-	height: auto;
+	width: 300px;
+	height: 300px;
 	display: block;
-	/* Éviter les espaces vides sous les images */
+
 }
 
 /* Utiliser les attributs width et height pour les images */
@@ -309,12 +309,8 @@ input[type="submit"] {
 	.carousel-item img {
 		max-width: 100%;
 		/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
-		height: auto;
+		height: 600px;
 		/* Maintenez le rapport hauteur/largeur original */
-		display: block;
-		/* Supprimez tout espace vide sous les images */
-		margin: 0 auto;
-		/* Centrez les images horizontalement */
 	}
 }
 
@@ -322,7 +318,7 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	max-height: 600px;
+	height: 600px;
 	/* Ajustez cette valeur en fonction de vos besoins */
 }
 
@@ -364,6 +360,13 @@ input[type="submit"] {
 @media all and (max-width:1000px) {
 	#about {
 		flex-direction: column
+	}
+
+	.carousel-item img {
+		max-width: 100%;
+		/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
+		height: 500px;
+		/* Maintenez le rapport hauteur/largeur original */
 	}
 
 	.picture {
@@ -491,5 +494,11 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
+	height: 400px;
+}
+
+.carousel-item img {
+	max-width: 80%;
+	/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
 	height: 400px;
 }
