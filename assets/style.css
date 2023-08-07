@@ -293,6 +293,38 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+#carouselExampleIndicators {
+	position: relative;
+	/* Assurez-vous que le conteneur du carousel a une position relative */
+	max-height: 500px;
+	/* Définissez une hauteur maximale pour les images du carousel */
+	overflow: hidden;
+	/* Cachez tout contenu dépassant de la hauteur maximale */
+
+	.carousel-inner {
+		display: flex;
+		/* Utilisez flexbox pour aligner les images */
+		transition: transform 0.5s ease-in-out;
+		/* Ajoutez une transition en douceur pour les animations */
+	}
+
+	.carousel-item {
+		flex: 0 0 100%;
+		/* Assurez-vous que chaque élément occupe toute la largeur du carousel */
+	}
+
+	.carousel-item img {
+		max-width: 100%;
+		/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
+		height: auto;
+		/* Maintenez le rapport hauteur/largeur original */
+		display: block;
+		/* Supprimez tout espace vide sous les images */
+		margin: 0 auto;
+		/* Centrez les images horizontalement */
+	}
+}
+
 @media all and (max-width:1180px) {
 	.picture {
 		flex: 2
