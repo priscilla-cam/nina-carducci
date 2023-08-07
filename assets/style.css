@@ -291,7 +291,8 @@ input[type="submit"] {
 
 	.carousel-inner {
 		display: flex;
-		transition: transform 0.5s ease-in-out
+		transition: transform 0.5s ease-in-out;
+		height: 600px !important;
 	}
 
 	.carousel-item {
