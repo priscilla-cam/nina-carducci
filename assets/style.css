@@ -4,6 +4,7 @@ body {
 }
 
 * {
+	box-sizing: border-box;
 	font-family: 'Inter';
 	font-style: normal
 }
@@ -42,14 +43,13 @@ body {
 
 .social-link img {
 	width: 20px;
-	height: 20px;
+	height: 20px
 }
 
 .instagram {
 	width: 20px;
-	height: 20px;
+	height: 20px
 }
-
 
 #about {
 	display: flex;
@@ -84,20 +84,18 @@ body {
 .camera {
 	width: 300px;
 	height: 300px;
-	display: block;
-
+	display: block
 }
 
-/* Utiliser les attributs width et height pour les images */
 .top-header .social-link img,
 .instagram {
 	width: 20px;
-	height: 20px;
+	height: 20px
 }
 
 .img {
 	width: 100%;
-	height: auto;
+	height: auto
 }
 
 #about-me {
@@ -288,29 +286,21 @@ input[type="submit"] {
 
 #carouselExampleIndicators {
 	position: relative;
-	/* Assurez-vous que le conteneur du carousel a une position relative */
-	max-height: 500px;
-	/* Définissez une hauteur maximale pour les images du carousel */
+	height: 600px;
 	overflow: hidden;
-	/* Cachez tout contenu dépassant de la hauteur maximale */
 
 	.carousel-inner {
 		display: flex;
-		/* Utilisez flexbox pour aligner les images */
-		transition: transform 0.5s ease-in-out;
-		/* Ajoutez une transition en douceur pour les animations */
+		transition: transform 0.5s ease-in-out
 	}
 
 	.carousel-item {
-		flex: 0 0 100%;
-		/* Assurez-vous que chaque élément occupe toute la largeur du carousel */
+		flex: 0 0 100%
 	}
 
 	.carousel-item img {
 		max-width: 100%;
-		/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
-		height: 600px;
-		/* Maintenez le rapport hauteur/largeur original */
+		height: 600px
 	}
 }
 
@@ -318,8 +308,7 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	height: 600px;
-	/* Ajustez cette valeur en fonction de vos besoins */
+	height: 600px
 }
 
 @media all and (max-width:1180px) {
@@ -347,14 +336,13 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	height: 600px;
+	height: 800px
 }
 
-/* Ajustez cette valeur en fonction de vos besoins */
 .picture.left::before,
 .picture.right::before {
 	width: 100px;
-	height: 100px;
+	height: 100px
 }
 
 @media all and (max-width:1000px) {
@@ -364,9 +352,7 @@ input[type="submit"] {
 
 	.carousel-item img {
 		max-width: 100%;
-		/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
-		height: 500px;
-		/* Maintenez le rapport hauteur/largeur original */
+		height: 500px
 	}
 
 	.picture {
@@ -434,13 +420,13 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	height: 400px;
+	height: 400px
 }
 
 .picture.left::before,
 .picture.right::before {
 	width: 100px;
-	height: 100px;
+	height: 100px
 }
 
 @media all and (max-width:650px) {
@@ -464,7 +450,7 @@ input[type="submit"] {
 	.picture.left::before,
 	.picture.right::before {
 		width: 100px;
-		height: 100px;
+		height: 100px
 	}
 
 	#services .container {
@@ -494,11 +480,10 @@ input[type="submit"] {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-	height: 400px;
+	height: 400px
 }
 
 .carousel-item img {
 	max-width: 80%;
-	/* Assurez-vous que les images ne dépassent pas la largeur du carousel */
-	height: 400px;
+	height: 400px
 }
