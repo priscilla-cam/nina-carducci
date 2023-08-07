@@ -347,6 +347,20 @@ input[type="submit"] {
 	}
 }
 
+#header img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-height: 600px;
+}
+
+/* Ajustez cette valeur en fonction de vos besoins */
+.picture.left::before,
+.picture.right::before {
+	width: 100px;
+	height: 100px;
+}
+
 @media all and (max-width:1000px) {
 	#about {
 		flex-direction: column
@@ -413,6 +427,19 @@ input[type="submit"] {
 	}
 }
 
+#header img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-height: 600px;
+}
+
+.picture.left::before,
+.picture.right::before {
+	width: 100px;
+	height: 100px;
+}
+
 @media all and (max-width:650px) {
 	.top-header {
 		flex-direction: column;
@@ -458,4 +485,11 @@ input[type="submit"] {
 	.picture {
 		width: 80%
 	}
+}
+
+#header img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-height: 600px;
 }
