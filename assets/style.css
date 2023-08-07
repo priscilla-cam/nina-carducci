@@ -62,8 +62,8 @@ body {
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
+	width: 150px;
+	height: 150px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -244,20 +244,13 @@ body {
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
-	width: 374px;
-	height: 329px;
+	width: 150px;
+	height: 150px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	z-index: -1
 }
-
-.camera {
-	width: 374px;
-	height: 329px;
-}
-
-
 
 .form-container {
 	flex: 2
@@ -323,6 +316,14 @@ input[type="submit"] {
 		margin: 0 auto;
 		/* Centrez les images horizontalement */
 	}
+}
+
+#header img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-height: 600px;
+	/* Ajustez cette valeur en fonction de vos besoins */
 }
 
 @media all and (max-width:1180px) {
