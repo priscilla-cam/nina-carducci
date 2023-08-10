@@ -36,10 +36,29 @@ body {
 	padding-inline: 10px
 }
 
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 100px;
+	padding-block: 30px;
+	min-height: 50px;
+	/* Exemple de hauteur minimale */
+}
+
+.nav li {
+	margin: 0;
+	padding-inline: 10px;
+	min-width: 80px;
+	/* Exemple de largeur minimale */
+	text-align: center;
+}
+
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
 }
+
 
 .social-link img {
 	width: 20px;
@@ -312,6 +331,98 @@ input[type="submit"] {
 	height: 600px
 }
 
+.carousel-inner {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	height: 600px;
+	/* Hauteur fixe du carrousel */
+	overflow: hidden;
+}
+
+.carousel-item {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	max-width: 100%;
+	min-height: 400px;
+	/* Hauteur minimale pour les images */
+}
+
+.carousel-control-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 15px;
+	/* Ajustez la marge droite selon vos besoins */
+	height: 40px;
+	/* Hauteur fixe pour le bouton */
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Ajoutez une couleur de fond */
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	z-index: 1;
+	/* Assurez-vous que le bouton est au-dessus des images */
+	transition: background-color 0.3s ease;
+	/* Ajoutez une transition en cas de survol */
+}
+
+.carousel-control-next-icon {
+	/* Ajoutez ici l'icône pour le bouton "Next" */
+	color: #fff;
+	/* Couleur de l'icône */
+	font-size: 20px;
+	/* Taille de l'icône */
+}
+
+/* Ajoutez un style de survol pour le bouton */
+.carousel-control-next:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-prev {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 15px;
+	/* Ajustez la marge gauche selon vos besoins */
+	height: 40px;
+	/* Hauteur fixe pour le bouton */
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Ajoutez une couleur de fond */
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	z-index: 1;
+	/* Assurez-vous que le bouton est au-dessus des images */
+	transition: background-color 0.3s ease;
+	/* Ajoutez une transition en cas de survol */
+}
+
+.carousel-control-prev-icon {
+	/* Ajoutez ici l'icône pour le bouton "Previous" */
+	color: #fff;
+	/* Couleur de l'icône */
+	font-size: 20px;
+	/* Taille de l'icône */
+}
+
+/* Ajoutez un style de survol pour le bouton */
+.carousel-control-prev:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
 @media all and (max-width:1180px) {
 	.picture {
 		flex: 2
@@ -415,6 +526,7 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1
 	}
+
 }
 
 #header img {
