@@ -383,10 +383,6 @@ input[type="submit"] {
 	/* Taille de l'icône */
 }
 
-/* Ajoutez un style de survol pour le bouton */
-.carousel-control-next:hover {
-	background-color: rgba(0, 0, 0, 0.7);
-}
 
 .carousel-control-prev {
 	position: absolute;
@@ -423,6 +419,29 @@ input[type="submit"] {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+span[itemprop="name"] {
+	display: inline-block;
+	min-height: 1em;
+	/* Ajustez la hauteur minimale selon vos besoins */
+	margin-bottom: 0.2em;
+	/* Ajustez la marge inférieure selon vos besoins */
+}
+
+/* Ajustements pour le CLS des éléments <h2> */
+h2 {
+	margin-top: 0.5em;
+	/* Ajustez la marge supérieure selon vos besoins */
+	margin-bottom: 0.5em;
+	/* Ajustez la marge inférieure selon vos besoins */
+}
+
+#about[itemprop="author"] {
+	min-height: 500px;
+	/* Ajustez la hauteur minimale selon vos besoins */
+	margin-bottom: 1em;
+	/* Ajustez la marge inférieure selon vos besoins */
+}
+
 @media all and (max-width:1180px) {
 	.picture {
 		flex: 2
@@ -455,6 +474,12 @@ input[type="submit"] {
 .picture.right::before {
 	width: 100px;
 	height: 100px
+}
+
+.nav {
+	height: 50px;
+	/* Ajustez la hauteur selon vos besoins */
+	overflow: hidden;
 }
 
 @media all and (max-width:1000px) {
