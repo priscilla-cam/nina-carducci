@@ -469,7 +469,7 @@ img {
 		margin-bottom: 1em
 	}
 
-	#about-me h6,
+	#about-me h4,
 	#about-me p {
 		width: 100%
 	}
@@ -664,4 +664,68 @@ h2 {
 .carousel-item img {
 	max-width: 80%;
 	height: 400px
+}
+
+#about-me {
+	flex: 2;
+	position: relative;
+}
+
+#about-me img {
+	width: 100%;
+	max-width: 300px;
+	/* Ajustez cette valeur en fonction de vos besoins */
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	/* Centre l'image horizontalement */
+}
+
+.about-me__title {
+	margin-top: 1em;
+	margin-bottom: 60px;
+	font-size: 30px;
+
+	/* Centre le titre horizontalement */
+}
+
+.about-me__introduction {
+	font-family: 'Spectral';
+	font-weight: 800;
+	font-style: italic;
+	width: 100%;
+	max-width: 800px;
+	/* Ajustez cette valeur en fonction de vos besoins */
+	margin: 0 auto;
+	/* Centre le texte horizontalement */
+}
+
+/* Ajoutez des styles spécifiques pour les médias max-width 650px */
+@media all and (max-width: 650px) {
+	#about-me img {
+		max-width: 80%;
+		/* Réduisez la largeur de l'image pour s'adapter à l'écran plus petit */
+		margin: 0 auto;
+		/* Centre l'image horizontalement */
+	}
+
+	.about-me__title {
+		margin-bottom: 30px;
+		/* Réduisez la marge inférieure du titre */
+	}
+
+	.about-me__introduction {
+		max-width: 100%;
+		/* Ajustez la largeur du texte pour s'adapter à l'écran plus petit */
+		margin: 0 auto;
+		/* Centre le texte horizontalement */
+	}
+}
+
+/* Ajoutez des styles spécifiques pour les médias max-width 1000px */
+@media all and (max-width: 1000px) {
+	.about-me__title {
+		font-size: 24px;
+		/* Réduisez la taille du titre */
+	}
 }
