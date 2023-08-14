@@ -110,6 +110,11 @@ body {
 	height: 20px
 }
 
+.menu {
+	height: 50px;
+
+}
+
 .img {
 	width: 100%;
 	height: auto
@@ -432,6 +437,11 @@ h2 {
 	/* Ajustez la marge inférieure selon vos besoins */
 }
 
+img {
+	overflow-clip-margin: content-box;
+	overflow: clip;
+}
+
 @media all and (max-width:1180px) {
 	.picture {
 		flex: 2
@@ -632,12 +642,15 @@ h2 {
 
 	}
 
-	h2 {
-		font-size: 1.5em;
-	}
 
 	.picture {
 		width: 80%
+	}
+
+	#carouselExampleIndicators {
+		position: relative;
+		height: 600px;
+		overflow: hidden;
 	}
 }
 
