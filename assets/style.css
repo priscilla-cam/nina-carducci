@@ -40,8 +40,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-inline: 100px;
-	padding-block: 30px;
 	min-height: 50px;
 	/* Exemple de hauteur minimale */
 }
@@ -141,7 +139,7 @@ body {
 
 .title {
 	text-align: center;
-	padding-block: 2em
+	padding-block: 2em;
 }
 
 .gallery .nav {
@@ -362,8 +360,7 @@ input[type="submit"] {
 	height: 40px;
 	/* Hauteur fixe pour le bouton */
 	width: 40px;
-	background-color: rgba(0, 0, 0, 0.5);
-	/* Ajoutez une couleur de fond */
+
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -371,8 +368,7 @@ input[type="submit"] {
 	cursor: pointer;
 	z-index: 1;
 	/* Assurez-vous que le bouton est au-dessus des images */
-	transition: background-color 0.3s ease;
-	/* Ajoutez une transition en cas de survol */
+
 }
 
 .carousel-control-next-icon {
@@ -393,7 +389,6 @@ input[type="submit"] {
 	height: 40px;
 	/* Hauteur fixe pour le bouton */
 	width: 40px;
-	background-color: rgba(0, 0, 0, 0.5);
 	/* Ajoutez une couleur de fond */
 	border-radius: 50%;
 	display: flex;
@@ -402,8 +397,7 @@ input[type="submit"] {
 	cursor: pointer;
 	z-index: 1;
 	/* Assurez-vous que le bouton est au-dessus des images */
-	transition: background-color 0.3s ease;
-	/* Ajoutez une transition en cas de survol */
+
 }
 
 .carousel-control-prev-icon {
@@ -414,10 +408,6 @@ input[type="submit"] {
 	/* Taille de l'icône */
 }
 
-/* Ajoutez un style de survol pour le bouton */
-.carousel-control-prev:hover {
-	background-color: rgba(0, 0, 0, 0.7);
-}
 
 span[itemprop="name"] {
 	display: inline-block;
@@ -447,9 +437,21 @@ h2 {
 		flex: 2
 	}
 
+	.nav {
+		height: 50px;
+		/* Ajustez la hauteur selon vos besoins */
+
+	}
+
 	#about,
 	#contact .container {
 		align-items: center
+	}
+
+	#about,
+	#contact {
+		padding-inline: 2em;
+		padding-block: 2em
 	}
 
 	.about-me__title {
@@ -479,12 +481,22 @@ h2 {
 .nav {
 	height: 50px;
 	/* Ajustez la hauteur selon vos besoins */
-	overflow: hidden;
+
+}
+
+h2 {
+	font-size: 2em;
 }
 
 @media all and (max-width:1000px) {
 	#about {
 		flex-direction: column
+	}
+
+	#about,
+	#contact {
+		padding-inline: 2em;
+		padding-block: 2em
 	}
 
 	.carousel-item img {
@@ -552,6 +564,11 @@ h2 {
 		z-index: -1
 	}
 
+	.nav {
+		height: 50px;
+		/* Ajustez la hauteur selon vos besoins */
+
+	}
 }
 
 #header img {
@@ -607,6 +624,16 @@ h2 {
 
 	form {
 		width: 100%
+	}
+
+	.nav {
+		height: 50px;
+		/* Ajustez la hauteur selon vos besoins */
+
+	}
+
+	h2 {
+		font-size: 1.5em;
 	}
 
 	.picture {
